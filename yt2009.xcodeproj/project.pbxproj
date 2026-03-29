@@ -18,6 +18,17 @@
 		334D29BE2F760D720087C2CA /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 334D299D2F760D710087C2CA /* Cocoa.framework */; };
 		334D29C62F760D720087C2CA /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 334D29C42F760D720087C2CA /* InfoPlist.strings */; };
 		334D29C82F760D720087C2CA /* yt2009Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 334D29C72F760D720087C2CA /* yt2009Tests.m */; };
+		334D29D42F7611870087C2CA /* YTMainWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = 334D29D32F7611870087C2CA /* YTMainWindow.m */; };
+		334D29D82F761CC20087C2CA /* YTWebView.m in Sources */ = {isa = PBXBuildFile; fileRef = 334D29D72F761CC20087C2CA /* YTWebView.m */; };
+		334D29DA2F782DD40087C2CA /* MenuSegmentedControl.xib in Resources */ = {isa = PBXBuildFile; fileRef = 334D29D92F782DD40087C2CA /* MenuSegmentedControl.xib */; };
+		334D29DD2F78338B0087C2CA /* YTMenuSegmentedControlView.m in Sources */ = {isa = PBXBuildFile; fileRef = 334D29DC2F78338B0087C2CA /* YTMenuSegmentedControlView.m */; };
+		33CB3BB42F78C8260002B813 /* YTPreferenceWindowController.m in Sources */ = {isa = PBXBuildFile; fileRef = 33CB3BB32F78C8260002B813 /* YTPreferenceWindowController.m */; };
+		33CB3BB62F78C83E0002B813 /* PreferenceWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 33CB3BB52F78C83E0002B813 /* PreferenceWindow.xib */; };
+		33CB3BB82F78CB380002B813 /* blank.html in Resources */ = {isa = PBXBuildFile; fileRef = 33CB3BB72F78CB380002B813 /* blank.html */; };
+		33CB3BBD2F78D1C10002B813 /* YTGeneralPreferenceViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 33CB3BBB2F78D1C10002B813 /* YTGeneralPreferenceViewController.m */; };
+		33CB3BBE2F78D1C10002B813 /* GeneralView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 33CB3BBC2F78D1C10002B813 /* GeneralView.xib */; };
+		33CB3BC32F78D3370002B813 /* YTAdvancedPreferenceViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 33CB3BC12F78D3370002B813 /* YTAdvancedPreferenceViewController.m */; };
+		33CB3BC42F78D3370002B813 /* AdvancedView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 33CB3BC22F78D3370002B813 /* AdvancedView.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -50,6 +61,23 @@
 		334D29C32F760D720087C2CA /* yt2009Tests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "yt2009Tests-Info.plist"; sourceTree = "<group>"; };
 		334D29C52F760D720087C2CA /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		334D29C72F760D720087C2CA /* yt2009Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = yt2009Tests.m; sourceTree = "<group>"; };
+		334D29D22F7611870087C2CA /* YTMainWindow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YTMainWindow.h; sourceTree = "<group>"; };
+		334D29D32F7611870087C2CA /* YTMainWindow.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YTMainWindow.m; sourceTree = "<group>"; };
+		334D29D62F761CC20087C2CA /* YTWebView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YTWebView.h; sourceTree = "<group>"; };
+		334D29D72F761CC20087C2CA /* YTWebView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YTWebView.m; sourceTree = "<group>"; };
+		334D29D92F782DD40087C2CA /* MenuSegmentedControl.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MenuSegmentedControl.xib; sourceTree = "<group>"; };
+		334D29DB2F78338B0087C2CA /* YTMenuSegmentedControlView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YTMenuSegmentedControlView.h; sourceTree = "<group>"; };
+		334D29DC2F78338B0087C2CA /* YTMenuSegmentedControlView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YTMenuSegmentedControlView.m; sourceTree = "<group>"; };
+		33CB3BB22F78C8260002B813 /* YTPreferenceWindowController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YTPreferenceWindowController.h; sourceTree = "<group>"; };
+		33CB3BB32F78C8260002B813 /* YTPreferenceWindowController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YTPreferenceWindowController.m; sourceTree = "<group>"; };
+		33CB3BB52F78C83E0002B813 /* PreferenceWindow.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PreferenceWindow.xib; sourceTree = "<group>"; };
+		33CB3BB72F78CB380002B813 /* blank.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = blank.html; sourceTree = "<group>"; };
+		33CB3BBA2F78D1C10002B813 /* YTGeneralPreferenceViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YTGeneralPreferenceViewController.h; sourceTree = "<group>"; };
+		33CB3BBB2F78D1C10002B813 /* YTGeneralPreferenceViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YTGeneralPreferenceViewController.m; sourceTree = "<group>"; };
+		33CB3BBC2F78D1C10002B813 /* GeneralView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = GeneralView.xib; sourceTree = "<group>"; };
+		33CB3BC02F78D3370002B813 /* YTAdvancedPreferenceViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YTAdvancedPreferenceViewController.h; sourceTree = "<group>"; };
+		33CB3BC12F78D3370002B813 /* YTAdvancedPreferenceViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YTAdvancedPreferenceViewController.m; sourceTree = "<group>"; };
+		33CB3BC22F78D3370002B813 /* AdvancedView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AdvancedView.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,8 +143,13 @@
 		334D29A32F760D710087C2CA /* yt2009 */ = {
 			isa = PBXGroup;
 			children = (
+				33CB3BB12F78C7BC0002B813 /* Preferences */,
+				334D29DE2F78A1C90087C2CA /* MenuSegmentedControl */,
+				334D29D12F7611650087C2CA /* MainWindow */,
+				334D29D52F761C9A0087C2CA /* WebView */,
 				334D29AF2F760D710087C2CA /* YTAppDelegate.h */,
 				334D29B02F760D710087C2CA /* YTAppDelegate.m */,
+				33CB3BB72F78CB380002B813 /* blank.html */,
 				334D29B22F760D720087C2CA /* MainMenu.xib */,
 				334D29B52F760D720087C2CA /* Images.xcassets */,
 				334D29A42F760D710087C2CA /* Supporting Files */,
@@ -152,6 +185,66 @@
 				334D29C42F760D720087C2CA /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		334D29D12F7611650087C2CA /* MainWindow */ = {
+			isa = PBXGroup;
+			children = (
+				334D29D22F7611870087C2CA /* YTMainWindow.h */,
+				334D29D32F7611870087C2CA /* YTMainWindow.m */,
+			);
+			name = MainWindow;
+			sourceTree = "<group>";
+		};
+		334D29D52F761C9A0087C2CA /* WebView */ = {
+			isa = PBXGroup;
+			children = (
+				334D29D62F761CC20087C2CA /* YTWebView.h */,
+				334D29D72F761CC20087C2CA /* YTWebView.m */,
+			);
+			name = WebView;
+			sourceTree = "<group>";
+		};
+		334D29DE2F78A1C90087C2CA /* MenuSegmentedControl */ = {
+			isa = PBXGroup;
+			children = (
+				334D29D92F782DD40087C2CA /* MenuSegmentedControl.xib */,
+				334D29DB2F78338B0087C2CA /* YTMenuSegmentedControlView.h */,
+				334D29DC2F78338B0087C2CA /* YTMenuSegmentedControlView.m */,
+			);
+			name = MenuSegmentedControl;
+			sourceTree = "<group>";
+		};
+		33CB3BB12F78C7BC0002B813 /* Preferences */ = {
+			isa = PBXGroup;
+			children = (
+				33CB3BB92F78D1A30002B813 /* General */,
+				33CB3BBF2F78D3180002B813 /* Advanced */,
+				33CB3BB22F78C8260002B813 /* YTPreferenceWindowController.h */,
+				33CB3BB32F78C8260002B813 /* YTPreferenceWindowController.m */,
+				33CB3BB52F78C83E0002B813 /* PreferenceWindow.xib */,
+			);
+			name = Preferences;
+			sourceTree = "<group>";
+		};
+		33CB3BB92F78D1A30002B813 /* General */ = {
+			isa = PBXGroup;
+			children = (
+				33CB3BBA2F78D1C10002B813 /* YTGeneralPreferenceViewController.h */,
+				33CB3BBB2F78D1C10002B813 /* YTGeneralPreferenceViewController.m */,
+				33CB3BBC2F78D1C10002B813 /* GeneralView.xib */,
+			);
+			name = General;
+			sourceTree = "<group>";
+		};
+		33CB3BBF2F78D3180002B813 /* Advanced */ = {
+			isa = PBXGroup;
+			children = (
+				33CB3BC02F78D3370002B813 /* YTAdvancedPreferenceViewController.h */,
+				33CB3BC12F78D3370002B813 /* YTAdvancedPreferenceViewController.m */,
+				33CB3BC22F78D3370002B813 /* AdvancedView.xib */,
+			);
+			name = Advanced;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -233,8 +326,13 @@
 			files = (
 				334D29A82F760D710087C2CA /* InfoPlist.strings in Resources */,
 				334D29B62F760D720087C2CA /* Images.xcassets in Resources */,
+				33CB3BC42F78D3370002B813 /* AdvancedView.xib in Resources */,
+				33CB3BB82F78CB380002B813 /* blank.html in Resources */,
 				334D29AE2F760D710087C2CA /* Credits.rtf in Resources */,
 				334D29B42F760D720087C2CA /* MainMenu.xib in Resources */,
+				33CB3BB62F78C83E0002B813 /* PreferenceWindow.xib in Resources */,
+				334D29DA2F782DD40087C2CA /* MenuSegmentedControl.xib in Resources */,
+				33CB3BBE2F78D1C10002B813 /* GeneralView.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -253,7 +351,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				33CB3BC32F78D3370002B813 /* YTAdvancedPreferenceViewController.m in Sources */,
+				334D29D82F761CC20087C2CA /* YTWebView.m in Sources */,
+				33CB3BB42F78C8260002B813 /* YTPreferenceWindowController.m in Sources */,
+				334D29D42F7611870087C2CA /* YTMainWindow.m in Sources */,
 				334D29AA2F760D710087C2CA /* main.m in Sources */,
+				33CB3BBD2F78D1C10002B813 /* YTGeneralPreferenceViewController.m in Sources */,
+				334D29DD2F78338B0087C2CA /* YTMenuSegmentedControlView.m in Sources */,
 				334D29B12F760D710087C2CA /* YTAppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -390,6 +494,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "yt2009/yt2009-Prefix.pch";
 				INFOPLIST_FILE = "yt2009/yt2009-Info.plist";
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -403,6 +508,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "yt2009/yt2009-Prefix.pch";
 				INFOPLIST_FILE = "yt2009/yt2009-Info.plist";
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -467,6 +573,7 @@
 				334D29CD2F760D720087C2CA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		334D29CE2F760D720087C2CA /* Build configuration list for PBXNativeTarget "yt2009Tests" */ = {
 			isa = XCConfigurationList;
@@ -475,6 +582,7 @@
 				334D29D02F760D720087C2CA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

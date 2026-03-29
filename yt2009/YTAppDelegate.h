@@ -7,9 +7,15 @@
 //
 
 #import <Cocoa/Cocoa.h>
+#import "YTMainWindow.h"
+#import "YTPreferenceWindowController.h"
+
+@class YTMainWindow;
 
 @interface YTAppDelegate : NSObject <NSApplicationDelegate>
 
-@property (assign) IBOutlet NSWindow *window;
+@property (assign) IBOutlet YTMainWindow *window;
+@property (strong) YTPreferenceWindowController* preferenceWindowController;
+@property (strong) NSString* source;
 
 @end
