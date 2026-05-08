@@ -22,7 +22,7 @@
 - (void)loadView {
     [super loadView];
     
-    [self.urlTextField setStringValue:[[NSUserDefaults standardUserDefaults] stringForKey:@"source"]];
+    [self.urlTextField setStringValue:[[NSUserDefaults standardUserDefaults] stringForKey:@"source"] ?: @""];
 }
 
 - (IBAction)onTextFieldChange:(NSTextField*)sender {

@@ -47,25 +47,25 @@
     NSLog(@"hi %@ %ld", self.mainFrameURL.lastPathComponent, (long)selected);
     switch (selected) {
         case 0: {
-            NSURL* url = [[NSURL alloc] initWithString:[NSString stringWithFormat:@"%@/", [[NSApp delegate] source]]];
+            NSURL* url = [[NSURL alloc] initWithString:[NSString stringWithFormat:@"%@/", [(YTAppDelegate*)[NSApp delegate] source]]];
             NSURLRequest* req = [[NSURLRequest alloc] initWithURL:url];
             [self.mainFrame loadRequest:req];
             break;
         }
         case 1: {
-            NSURL* url = [[NSURL alloc] initWithString:[NSString stringWithFormat:@"%@/videos", [[NSApp delegate] source]]];
+            NSURL* url = [[NSURL alloc] initWithString:[NSString stringWithFormat:@"%@/videos", [(YTAppDelegate*)[NSApp delegate] source]]];
             NSURLRequest* req = [[NSURLRequest alloc] initWithURL:url];
             [self.mainFrame loadRequest:req];
             break;
         }
         case 2: {
-            NSURL* url = [[NSURL alloc] initWithString:[NSString stringWithFormat:@"%@/my_subscriptions", [[NSApp delegate] source]]];
+            NSURL* url = [[NSURL alloc] initWithString:[NSString stringWithFormat:@"%@/my_subscriptions", [(YTAppDelegate*)[NSApp delegate] source]]];
             NSURLRequest* req = [[NSURLRequest alloc] initWithURL:url];
             [self.mainFrame loadRequest:req];
             break;
         }
         case 3: {
-            NSURL* url = [[NSURL alloc] initWithString:[NSString stringWithFormat:@"%@/flags", [[NSApp delegate] source]]];
+            NSURL* url = [[NSURL alloc] initWithString:[NSString stringWithFormat:@"%@/flags", [(YTAppDelegate*)[NSApp delegate] source]]];
             NSURLRequest* req = [[NSURLRequest alloc] initWithURL:url];
             [self.mainFrame loadRequest:req];
             break;
@@ -144,7 +144,7 @@
                || [[self.mainFrameURL componentsSeparatedByString:@"?"][0] rangeOfString:@"watch"].location != NSNotFound) {
         [window.menuButtons setSelectedSegment:1];
     } else if ([[self.mainFrameURL componentsSeparatedByString:@"?"][0] rangeOfString:@"/"].location != NSNotFound
-               && [self.mainFrameURL.lastPathComponent isEqual:[[[NSApp delegate] source] lastPathComponent]]) {
+               && [self.mainFrameURL.lastPathComponent isEqual:[[(YTAppDelegate*)[NSApp delegate] source] lastPathComponent]]) {
         [window.menuButtons setSelectedSegment:0];
     } else [window.menuButtons setSelectedSegment:4];
     
